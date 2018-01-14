@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CBaseObject">
+    <Position X="1.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAAAAAAAAAAAAAAAQAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BaseObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBulletObject">
+    <Position X="1" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQACEARQAACAAAAgAAkRABAgMAAMAEAAYiAgAgYAA=</HashCode>
+      <FileName>BulletObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDrawObject">
+    <Position X="10.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>DrawObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGameObject">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQgAAAIQABABFgAABACEIwwgIAAAgAAQCgAQACAEA=</HashCode>
+      <FileName>GameObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMapObject">
+    <Position X="10.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAJAAAAQAAgAACAJAAABADCCAAIAAAiEAAEACBCBo=</HashCode>
+      <FileName>MapObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTankObject">
+    <Position X="2.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgCQAAEAJSAwCAAAABgQkBBBAgMAAMAEgAoSwAggYAA=</HashCode>
+      <FileName>TankObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAStar">
+    <Position X="4.75" Y="0.75" Width="1.5" />
+    <NestedTypes>
+      <Typedef Name="CAStar::MY_COORD" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>AStar.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="CAStar::PMY_CORRD" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>AStar.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Struct Name="CAStar::_MY_COORD" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>AStar.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Typedef Name="CAStar::NODE_INFO" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>AStar.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="CAStar::PNODE_INFO" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>AStar.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Struct Name="CAStar::_NODE_INFO" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>AStar.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAYEAAAAAAAIAAAAAAAgAKQIgSACAAAAAEAAI=</HashCode>
+      <FileName>AStar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="_TEXTNODE" Collapsed="true">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>GameObject.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="TEXTNODE" Collapsed="true">
+    <Position X="7.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="DIR_VALUE">
+    <Position X="9.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAA=</HashCode>
+      <FileName>MapObject.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="COLOR">
+    <Position X="9.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAIAAAAAABEAAAAAAEAAAAAAACAAAAAAACA=</HashCode>
+      <FileName>MapObject.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="M_VALUE" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAICAAgAAgAAoABAAAAgAAAAAAAAAAAAAEAAQQ=</HashCode>
+      <FileName>MapObject.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
